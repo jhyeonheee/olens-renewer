@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메모</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/index2.css">
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        window.onload = () => {
+
+            var swiper = new Swiper(".main-visual", {
+                spaceBetween: 30,
+                centeredSlides: true,
+                autoplay: {
+                    delay: 5000,
+                    disableOnInteraction: false,
+                },
+                speed: 1000,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });/* .main-visual end */
+
+            var swiper = new Swiper(".event", {
+                slidesPerView: 5,
+                spaceBetween: 24,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+
+                },
+
+
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+
+                /*   centeredSlides: false,
+                  autoplay: {
+                      delay: 5000,
+                      disableOnInteraction: false,
+                  },
+                  speed: 5000, */
+                loop: true,
+                scrollbar: {
+                    el: ".swiper-scrollbar",
+                    hide: false,
+
+                },
+            });/* .event end */
+
+            var swiper = new Swiper(".best", {
+                slidesPerView: 4,
+                spaceBetween: 10,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false,
+                    loop: true,
+                },
+                speed: 3000,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                loop: true,
+
+            });/* .best end */
+
+            var swiper = new Swiper(".make", {
+                slidesPerView: 'auto',
+                spaceBetween: 10,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+
+                centeredSlides: true,
+                /*  autoplay: {
+                     delay: 2000,
+                     disableOnInteraction: false,
+                 }, */
+                speed: 2000,
+                loop: true,
+
+
+            });/* .make end */
+
+            var swiper = new Swiper(".scroll", {
+
+            });/* .scroll end */
+
+
+            var swiper = new Swiper(".ad-01", {
+                pagination: {
+                    el: ".swiper-pagination",
+                    dynamicBullets: true,
+                },
+            });/* .ad-01 end */
+
+            var swiper = new Swiper(".ad-02", {
+                pagination: {
+                    el: ".swiper-pagination",
+                    dynamicBullets: true,
+                },
+            });/* .ad-02 end */
+
+        }
+    </script>
+</head>
+
+<body>
+    <div class="all">
+        <div class="main-01">
+            <div class="header">
+                <div class="nav">
+                    <div class="left">
+                        <a href="#">
+                            <h1>OLENS</h1>
+                            <div class="menu">
+                                <ul>
+                                    <li><a href="#">PRODUCT</a></li>
+                                    <li><a href="#">EVENT</a></li>
+                                    <li><a href="#">SERVICE</a></li>
+                                    <li><a href="#">PLACE</a></li>
+                                    <li><a href="#">ABOUT'O'</a></li>
+                                </ul>
+                            </div><!-- .menu end -->
+                    </div><!-- .left end -->
+                    <div class="line"></div>
+                    <div class="icon">
+                        <a href="#"><img src="img2/icon-01.png.png" alt=""></a>
+                        <a href="#"><img src="img2/icon-02.png" alt=""></a>
+                        <a href="#"><img src="img2/icon-03.png" alt=""></a>
+                    </div><!-- .icon end -->
+                </div><!-- .nav end -->
+            </div><!-- .header end -->
+            <!-- Swiper -->
+            <div class="swiper main-visual">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#"><img src="img2/main visual.png" alt=""></a>
+                    </div><!-- .swiper-slide end -->
+                    <div class="swiper-slide">
+                        <a href="#"><img src="img2/main visual(2).jpg" alt=""></a>
+                    </div><!-- .swiper-slide end -->
+                </div><!-- .swiper-wrapper end -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div><!-- .swiper main-visual end -->
+
+
+            <section class="section-01">
+                <div class="title">
+                    <div class="circle"></div><!-- .circle end -->
+                    <div class="title-text">
+                        <h2>EVENT & PROMOTION</h2>
+                        <p>오렌즈만의 특별하고 다양한 이벤트를 즐겨보세요!</p>
+                    </div><!-- .title-text end -->
+                </div><!-- .title end -->
+                <!-- Swiper -->
+                <div class="swiper event">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="img2/event(7).png" alt="">
+                                <div class="text">
+                                    <p>온라인</p>
+                                    <h2>[Summer Sparkle!]</h2>
+                                    <span>NEW 시크릿틴트 시리즈</span>
+                                </div><!-- .text end -->
+                            </a>
+                        </div><!-- .swiper-slide end -->
+
+
+
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="img2/event(5).png" alt="">
+                                    <p>온라인</p>
+                                </div><!-- .img end -->
+                            </a>
+                            <div class="text">
+                                <h2>[8월의 리뷰 이벤트]</h2>
+                                <span>당신의 컬러에 투표하세요!</span>
+                            </div><!-- .text end -->
+                        </div><!-- .swiper-slide end -->
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="img2/event(6).png" alt="">
+                                    <p>온라인</p>
+                                </div><!-- .img end -->
+                            </a>
+                            <div class="text">
+                                <h2>[민생회복 소비쿠폰]</h2>
+                                <span>오렌즈도 사용 사능!</span>
+                            </div><!-- .text end -->
+                        </div><!-- .swiper-slide end -->
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="img2/event(2).png" alt="">
+                                    <p>온라인</p>
+                                </div><!-- .img end -->
+                            </a>
+                            <div class="text">
+                                <h2>[정회원 전용]</h2>
+                                <span>행사렌즈 5천원 즉시 할인!</span>
+                            </div><!-- .text end -->
+                        </div><!-- .swiper-slide end -->
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="img2/event(3).png" alt="">
+                                    <p>온라인</p>
+                                </div><!-- .img end -->
+                            </a>
+                            <div class="text">
+                                <h2>[신상 추가]</h2>
+                                <span>한달용 렌즈 한팩 구매시 한팩 더!</span>
+                            </div><!-- .text end -->
+                        </div><!-- .swiper-slide end -->
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="img2/event(4).png" alt="">
+                                    <p>오프라인</p>
+                                </div><!-- .img end -->
+                            </a>
+                            <div class="text">
+                                <h2>[실리콘 렌즈 1+1]</h2>
+                                <span>실리콘 렌즈 한쌍 구매시 한쌍 더!!!</span>
+                            </div><!-- .text end -->
+                        </div><!-- .swiper-slide end -->
+
+
+                    </div><!-- .swiper-wrapper end -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-scrollbar"></div>
+                </div><!-- .swiper event end -->
+            </section><!-- .section-01 end -->
+            <section class="section-02">
+                <div class="title">
+                    <div class="circle"></div><!-- .circle end -->
+                    <div class="title-text">
+                        <h2>TODAY BEST</h2>
+                        <p>사람들이 선택한 오늘의 오렌즈를 살펴보세요</p>
+                    </div><!-- .title-text end -->
+                </div><!-- .title end -->
+                <!-- Swiper -->
+                <div class="swiper best">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#"><img src="img2/today(1).png" alt=""></a>
+                            <div class="text">
+                                <h3>빅글로이 원데이 - 모카브라운</h3>
+                                <ul>
+                                    <li>모카브라운</li>
+                                    <li>I</li>
+                                    <li>원데이</li>
+                                    <li>(13.6mm)</li>
+                                </ul>
+                            </div><!-- .text end -->
+                            <div class="color">
+                                <div class="moka"><a href="#"></a></div>
+                                <div class="purple"><a href="#"></a></div>
+                                <div class="gray"><a href="#"></a></div>
+                            </div><!-- .color end -->
+                            <strong>20,000원</strong>
+                        </div><!-- .swiper-slide end -->
+                        <div class="swiper-slide">
+                            <a href="#"><img src="img2/today(2).png" alt=""></a>
+                            <div class="text">
+                                <h3>글로이티어 원데이 - 그레이</h3>
+                                <ul>
+                                    <li>그레이</li>
+                                    <li>I</li>
+                                    <li>원데이</li>
+                                    <li>(13.3mm)</li>
+                                </ul>
+                            </div><!-- .text end -->
+                            <div class="color">
+                                <div class="gray2"><a href="#"></a></div>
+                                <div class="brown"><a href="#"></a></div>
+                            </div><!-- .color end -->
+                            <strong>20,000원</strong>
+                        </div><!-- .swiper-slide end -->
+                        <div class="swiper-slide">
+                            <a href="#"><img src="img2/today(3).png" alt=""></a>
+                            <div class="text">
+                                <h3>비비링 원데이 - 초코</h3>
+                                <ul>
+                                    <li>초코</li>
+                                    <li>I</li>
+                                    <li>원데이</li>
+                                    <li>(13.0mm)</li>
+                                </ul>
+                            </div><!-- .text end -->
+                            <div class="color">
+                                <div class="choco"><a href="#"></a></div>
+                                <div class="brown2"><a href="#"></a></div>
+                                <div class="gray3"><a href="#"></a></div>
+                                <div class="beige"><a href="#"></a></div>
+                                <div class="pink"><a href="#"></a></div>
+                            </div><!-- .color end -->
+                            <strong>20,000원</strong>
+                        </div><!-- .swiper-slide end -->
+                        <div class="swiper-slide">
+                            <a href="#"><img src="img2/today(4).png" alt=""></a>
+                            <div class="text">
+                                <h3>무드나잇 원데이 - 무드 브라운</h3>
+                                <ul>
+                                    <li>브라운</li>
+                                    <li>I</li>
+                                    <li>원데이</li>
+                                    <li>(13.3mm)</li>
+                                </ul>
+                            </div><!-- .text end -->
+                            <div class="color">
+                                <div class="moodbrown"><a href="#"></a></div>
+                                <div class="moodgray"><a href="#"></a></div>
+                            </div><!-- .color end -->
+                            <strong>20,000원</strong>
+                        </div><!-- .swiper-slide end -->
+                        <div class="swiper-slide">
+                            <a href="#"><img src="img2/today(5).png" alt=""></a>
+                            <div class="text">
+                                <h3>리얼리쉬 - 브라운</h3>
+                                <ul>
+                                    <li>브라운</li>
+                                    <li>I</li>
+                                    <li> 1Month</li>
+                                    <li>(13.5mm)</li>
+                                </ul>
+                            </div><!-- .text end -->
+                            <div class="color">
+                                <div class="brown3"><a href="#"></a></div>
+                                <div class="gray4"><a href="#"></a></div>
+                            </div><!-- .color end -->
+                            <strong>30,000원</strong>
+                        </div><!-- .swiper-slide end -->
+                        <div class="swiper-slide">
+                            <a href="#"><img src="img2/today(6).png" alt=""></a>
+                            <div class="text">
+                                <h3>레인 블랙 - 블랙</h3>
+                                <ul>
+                                    <li>블랙</li>
+                                    <li>I</li>
+                                    <li>원데이</li>
+                                    <li>(13.5mm)</li>
+                                </ul>
+                            </div><!-- .text end -->
+                            <div class="color">
+                                <div class="black"><a href="#"></a></div>
+                            </div><!-- .color end -->
+                            <strong>20,000원</strong>
+                        </div><!-- .swiper-slide end -->
+                        <div class="swiper-slide">
+                            <a href="#"><img src="img2/today(7).png" alt=""></a>
+                            <div class="text">
+                                <h3>글로이 내츄럴 원데이 - 모카브라운</h3>
+                                <ul>
+                                    <li>모카브라운</li>
+                                    <li>I</li>
+                                    <li>원데이</li>
+                                    <li>(13.0mm)</li>
+                                </ul>
+                            </div><!-- .text end -->
+                            <div class="color">
+                                <div class="moka2"><a href="#"></a></div>
+                                <div class="latte"><a href="#"></a></div>
+                            </div><!-- .color end -->
+                            <strong>20,000원</strong>
+                        </div><!-- .swiper-slide end -->
+                        <div class="swiper-slide">
+                            <a href="#"><img src="img2/today(8).png" alt=""></a>
+                            <div class="text">
+                                <h3>닐스 - 브라운</h3>
+                                <ul>
+                                    <li>브라운</li>
+                                    <li>I</li>
+                                    <li>1Month</li>
+                                    <li>(13.5mm)</li>
+                                </ul>
+                            </div><!-- .text end -->
+                            <div class="color">
+                                <div class="brown4"><a href="#"></a></div>
+                                <div class="gray5"><a href="#"></a></div>
+                            </div><!-- .color end -->
+                            <strong>25,000원</strong>
+                        </div><!-- .swiper-slide end -->
+                    </div><!-- .swiper-wrapper end -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div><!-- .best end -->
+            </section><!-- .section-02 end -->
+            <section class="section-03">
+                <div class="title">
+                    <div class="circle"></div><!-- .circle end -->
+                    <div class="title-text">
+                        <h2>Make Your Own</h2>
+                        <p>오직 나만을 위한 렌즈 선택</p>
+                    </div><!-- .title-text end -->
+                </div><!-- .title end -->
+                <!-- Swiper -->
+                <div class="swiper make">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="bg">
+                                    <img src="img2/make(1).png" alt="">
+                                    <div class="text">
+                                        <h2>Personal Lens Test</h2>
+                                        <p>간단한 테스트를 통한 렌즈 찾기 </p>
+                                    </div><!-- .text end -->
+                                    <strong>Do It Now</strong>
+                                    <div class="img"><img src="img2/make_test.png" alt=""></div>
+                                </div><!-- .bg end -->
+                            </a>
+                        </div><!-- .swiper-slid end -->
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="bg">
+                                    <img src="img2/make(2).png" alt="">
+                                    <div class="text">
+                                        <h2>Feel Your Fit</h2>
+                                        <p> 나만의 렌즈를 찾는 가장 완벽한 방법</p>
+                                    </div><!-- .text end -->
+                                    <strong>Let's Start</strong>
+                                    <div class="img"><img src="img2/make_camera.png" alt=""></div>
+                                </div><!-- .bg end -->
+                            </a>
+                        </div><!-- .swiper-slid end -->
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="bg">
+                                    <img src="img2/make(3).png" alt="">
+                                    <div class="text">
+                                        <h2>Making Healthy Eyes</h2>
+                                        <p>눈 건강을 지키는 건강한 습관 만들기</p>
+                                    </div><!-- .text end -->
+                                    <strong>Go To Check</strong>
+                                    <div class="img"><img src="img2/make_check.png" alt=""></div>
+                                </div><!-- .bg end -->
+                            </a>
+                        </div><!-- .swiper-slid end -->
+                    </div><!-- .swiper-wrapperend -->
+                    <div class="swiper-pagination"></div>
+                </div><!-- .swiper mySwiper end -->
+            </section><!-- .section-03 end -->
+        </div><!-- .main-01 end -->
+
+        <div class="main-02">
+            <section class="section-04">
+                <img src="img2/scroll(all).png" alt="">
+            </section><!-- .section-04 end -->
+
+            <section class="section-05">
+                <div class="text">
+                    <P><img src="img2/flow.png" alt="">Love letter for eyes<img src="img2/flow.png" alt="">Love letter
+                        for eyes<img src="img2/flow.png" alt="">Love letter for eyes<img src="img2/flow.png" alt="">Love
+                        letter for eyes<img src="img2/flow.png" alt="">Love letter for eyes<img src="img2/flow.png"
+                            alt="">Love letter for eyes<img src="img2/flow.png" alt="">Love letter for eyes<img
+                            src="img2/flow.png" alt="">Love letter for eyes<img src="img2/flow.png" alt="">Love letter
+                        for eyes<img src="img2/flow.png" alt="">Love letter for eyes<img src="img2/flow.png" alt="">Love
+                        letter for eyes<img src="img2/flow.png" alt="">Love letter for eyes<img src="img2/flow.png"
+                            alt="">Love letter for eyes<img src="img2/flow.png" alt="">Love letter for eyes<img
+                            src="img2/flow.png" alt="">Love letter for eyes<img src="img2/flow.png" alt="">Love letter
+                        for eyes<img src="img2/flow.png" alt="">Love letter for eyes<img src="img2/flow.png" alt="">Love
+                        letter for eyes<img src="img2/flow.png" alt="">Love letter for eyes<img src="img2/flow.png"
+                            alt="">Love letter for eyes<img src="img2/flow.png" alt="">Love letter for eyes<img
+                            src="img2/flow.png" alt="">Love letter for eyes<img src="img2/flow.png" alt=""></P>
+                </div><!-- .text end -->
+            </section><!-- .section-05 -->
+
+        </div><!-- .main-02 end -->
+    </div><!-- .all end -->
+
+    <div class="main-03">
+        <section class="section-06">
+
+            <!-- Swiper -->
+            <div class="swiper ad-01">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <img src="img2/ad-01.png" alt="">
+                        <div class="text">
+                            <h2>오렌즈 X 뉴진스 싱그러운 눈빛에 반해봐!</h2>
+                            <p>올여름, 오렌즈와 뉴진스가 함께하는 ‘눈부시게 빛나는 크러쉬’ 캠페인에 참여하세요!</p>
+                            <a href="#">자세히 보기</a>
+                        </div><!-- .text end -->
+                    </div><!-- .swiper-slide end -->
+
+                    <div class="swiper-slide">
+                        <img src="img2/Ad(1).png" alt="">
+                        <div class="text">
+                            <h2>오렌즈 X 뉴진스 싱그러운 눈빛에 반해봐!</h2>
+                            <p>올여름, 오렌즈와 뉴진스가 함께하는 ‘눈부시게 빛나는 크러쉬’ 캠페인에 참여하세요!</p>
+                            <a href="#">자세히 보기</a>
+                        </div><!-- .text end -->
+                    </div><!-- .swiper-slide end -->
+
+                    <div class="swiper-slide">
+                        <img src="img2/ad-01.png" alt="">
+                        <div class="text">
+                            <h2>오렌즈 X 뉴진스 싱그러운 눈빛에 반해봐!</h2>
+                            <p>올여름, 오렌즈와 뉴진스가 함께하는 ‘눈부시게 빛나는 크러쉬’ 캠페인에 참여하세요!</p>
+                            <a href="#">자세히 보기</a>
+                        </div><!-- .text end -->
+                    </div><!-- .swiper-slide end -->
+
+                </div><!-- .swiper-wrapper end -->
+                <div class="swiper-pagination"></div>
+            </div><!-- . ad-01 end -->
+        </section><!-- .section-06 end -->
+
+        <section class="section-07">
+
+        </section><!-- .section-07 end -->
+
+        <section class="section-08">
+            <!-- Swiper -->
+            <div class="swiper ad-02">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <img src="img2/Ad(2).png" alt="">
+                        <div class="text">
+                            <a href="#">자세히 보기</a>
+                            <p>부드러움의 차이가 편안함의 차이</p>
+                            <div class="o2">
+                                <h2>O<sub>2</sub>EDITION</h2>
+                                <span>지금 바로 만나보시겠어요?</span>
+                            </div><!-- .o2 end -->
+
+                        </div><!-- .text end -->
+                    </div><!-- .swiper-slide end -->
+
+                    <div class="swiper-slide">
+                        <img src="img2/Ad(2).png" alt="">
+                        <div class="text">
+                            <a href="#">자세히 보기</a>
+                            <p>부드러움의 차이가 편안함의 차이</p>
+                            <div class="o2">
+                                <h2>O<sub>2</sub>EDITION</h2>
+                                <span>지금 바로 만나보시겠어요?</span>
+                            </div><!-- .o2 end -->
+
+                        </div><!-- .text end -->
+                    </div><!-- .swiper-slide end -->
+
+                    <div class="swiper-slide">
+                        <img src="img2/Ad(2).png" alt="">
+                        <div class="text">
+                            <a href="#">자세히 보기</a>
+                            <p>부드러움의 차이가 편안함의 차이</p>
+                            <div class="o2">
+                                <h2>O<sub>2</sub>EDITION</h2>
+                                <span>지금 바로 만나보시겠어요?</span>
+                            </div><!-- .o2 end -->
+
+                        </div><!-- .text end -->
+                    </div><!-- .swiper-slide end -->
+
+                </div><!-- .swiper-wrapper end -->
+                <div class="swiper-pagination"></div>
+            </div><!-- . ad-02 end -->
+        </section><!-- .section-08 end -->
+    </div><!-- .main-03 end -->
+
+    <section class="section-09">
+        
+    </section><!-- .section-09 end -->
+
+
+</body>
+
+</html>
