@@ -7,7 +7,7 @@
     <title>메모</title>
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/메모.css">
+    <link rel="stylesheet" href="css/index2.css">
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -34,11 +34,12 @@
             });/* .main-visual end */
 
             var swiper = new Swiper(".event", {
-                slidesPerView: 4.5,
-                spaceBetween: 20,
+                slidesPerView: 5,
+                spaceBetween: 24,
                 pagination: {
                     el: ".swiper-pagination",
                     clickable: true,
+
                 },
 
 
@@ -47,16 +48,17 @@
                     prevEl: ".swiper-button-prev",
                 },
 
-                centeredSlides: false,
-                autoplay: {
-                    delay: 5000,
-                    disableOnInteraction: false,
-                },
-                speed: 5000,
-
+                /*   centeredSlides: false,
+                  autoplay: {
+                      delay: 5000,
+                      disableOnInteraction: false,
+                  },
+                  speed: 5000, */
+                loop: true,
                 scrollbar: {
                     el: ".swiper-scrollbar",
                     hide: false,
+
                 },
             });/* .event end */
 
@@ -83,6 +85,7 @@
                     el: ".swiper-pagination",
                     clickable: true,
                 },
+                loop: true,
 
             });/* .best end */
 
@@ -100,13 +103,29 @@
                      disableOnInteraction: false,
                  }, */
                 speed: 2000,
+                loop: true,
 
 
             });/* .make end */
 
             var swiper = new Swiper(".scroll", {
-               
+
             });/* .scroll end */
+
+
+            var swiper = new Swiper(".ad-01", {
+                pagination: {
+                    el: ".swiper-pagination",
+                    dynamicBullets: true,
+                },
+            });/* .ad-01 end */
+
+            var swiper = new Swiper(".ad-02", {
+                pagination: {
+                    el: ".swiper-pagination",
+                    dynamicBullets: true,
+                },
+            });/* .ad-02 end */
 
         }
     </script>
@@ -152,6 +171,8 @@
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-pagination"></div>
             </div><!-- .swiper main-visual end -->
+
+
             <section class="section-01">
                 <div class="title">
                     <div class="circle"></div><!-- .circle end -->
@@ -163,6 +184,7 @@
                 <!-- Swiper -->
                 <div class="swiper event">
                     <div class="swiper-wrapper">
+
                         <div class="swiper-slide">
                             <a href="#">
                                 <img src="img2/event(7).png" alt="">
@@ -173,6 +195,9 @@
                                 </div><!-- .text end -->
                             </a>
                         </div><!-- .swiper-slide end -->
+
+
+
                         <div class="swiper-slide">
                             <a href="#">
                                 <div class="img">
@@ -233,6 +258,8 @@
                                 <span>실리콘 렌즈 한쌍 구매시 한쌍 더!!!</span>
                             </div><!-- .text end -->
                         </div><!-- .swiper-slide end -->
+
+
                     </div><!-- .swiper-wrapper end -->
                     <div class="swiper-button-next"></div>
                     <div class="swiper-button-prev"></div>
@@ -449,15 +476,129 @@
                 </div><!-- .swiper mySwiper end -->
             </section><!-- .section-03 end -->
         </div><!-- .main-01 end -->
-        
+
         <div class="main-02">
             <section class="section-04">
-               
+                <img src="img2/scroll(all).png" alt="">
             </section><!-- .section-04 end -->
+
+            <section class="section-05">
+                <div class="text">
+                    <P><img src="img2/flow.png" alt="">Love letter for eyes<img src="img2/flow.png" alt="">Love letter
+                        for eyes<img src="img2/flow.png" alt="">Love letter for eyes<img src="img2/flow.png" alt="">Love
+                        letter for eyes<img src="img2/flow.png" alt="">Love letter for eyes<img src="img2/flow.png"
+                            alt="">Love letter for eyes<img src="img2/flow.png" alt="">Love letter for eyes<img
+                            src="img2/flow.png" alt="">Love letter for eyes<img src="img2/flow.png" alt="">Love letter
+                        for eyes<img src="img2/flow.png" alt="">Love letter for eyes<img src="img2/flow.png" alt="">Love
+                        letter for eyes<img src="img2/flow.png" alt="">Love letter for eyes<img src="img2/flow.png"
+                            alt="">Love letter for eyes<img src="img2/flow.png" alt="">Love letter for eyes<img
+                            src="img2/flow.png" alt="">Love letter for eyes<img src="img2/flow.png" alt="">Love letter
+                        for eyes<img src="img2/flow.png" alt="">Love letter for eyes<img src="img2/flow.png" alt="">Love
+                        letter for eyes<img src="img2/flow.png" alt="">Love letter for eyes<img src="img2/flow.png"
+                            alt="">Love letter for eyes<img src="img2/flow.png" alt="">Love letter for eyes<img
+                            src="img2/flow.png" alt="">Love letter for eyes<img src="img2/flow.png" alt=""></P>
+                </div><!-- .text end -->
+            </section><!-- .section-05 -->
+
         </div><!-- .main-02 end -->
     </div><!-- .all end -->
 
+    <div class="main-03">
+        <section class="section-06">
 
+            <!-- Swiper -->
+            <div class="swiper ad-01">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <img src="img2/ad-01.png" alt="">
+                        <div class="text">
+                            <h2>오렌즈 X 뉴진스 싱그러운 눈빛에 반해봐!</h2>
+                            <p>올여름, 오렌즈와 뉴진스가 함께하는 ‘눈부시게 빛나는 크러쉬’ 캠페인에 참여하세요!</p>
+                            <a href="#">자세히 보기</a>
+                        </div><!-- .text end -->
+                    </div><!-- .swiper-slide end -->
+
+                    <div class="swiper-slide">
+                        <img src="img2/Ad(1).png" alt="">
+                        <div class="text">
+                            <h2>오렌즈 X 뉴진스 싱그러운 눈빛에 반해봐!</h2>
+                            <p>올여름, 오렌즈와 뉴진스가 함께하는 ‘눈부시게 빛나는 크러쉬’ 캠페인에 참여하세요!</p>
+                            <a href="#">자세히 보기</a>
+                        </div><!-- .text end -->
+                    </div><!-- .swiper-slide end -->
+
+                    <div class="swiper-slide">
+                        <img src="img2/ad-01.png" alt="">
+                        <div class="text">
+                            <h2>오렌즈 X 뉴진스 싱그러운 눈빛에 반해봐!</h2>
+                            <p>올여름, 오렌즈와 뉴진스가 함께하는 ‘눈부시게 빛나는 크러쉬’ 캠페인에 참여하세요!</p>
+                            <a href="#">자세히 보기</a>
+                        </div><!-- .text end -->
+                    </div><!-- .swiper-slide end -->
+
+                </div><!-- .swiper-wrapper end -->
+                <div class="swiper-pagination"></div>
+            </div><!-- . ad-01 end -->
+        </section><!-- .section-06 end -->
+
+        <section class="section-07">
+
+        </section><!-- .section-07 end -->
+
+        <section class="section-08">
+            <!-- Swiper -->
+            <div class="swiper ad-02">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <img src="img2/Ad(2).png" alt="">
+                        <div class="text">
+                            <a href="#">자세히 보기</a>
+                            <p>부드러움의 차이가 편안함의 차이</p>
+                            <div class="o2">
+                                <h2>O<sub>2</sub>EDITION</h2>
+                                <span>지금 바로 만나보시겠어요?</span>
+                            </div><!-- .o2 end -->
+
+                        </div><!-- .text end -->
+                    </div><!-- .swiper-slide end -->
+
+                    <div class="swiper-slide">
+                        <img src="img2/Ad(2).png" alt="">
+                        <div class="text">
+                            <a href="#">자세히 보기</a>
+                            <p>부드러움의 차이가 편안함의 차이</p>
+                            <div class="o2">
+                                <h2>O<sub>2</sub>EDITION</h2>
+                                <span>지금 바로 만나보시겠어요?</span>
+                            </div><!-- .o2 end -->
+
+                        </div><!-- .text end -->
+                    </div><!-- .swiper-slide end -->
+
+                    <div class="swiper-slide">
+                        <img src="img2/Ad(2).png" alt="">
+                        <div class="text">
+                            <a href="#">자세히 보기</a>
+                            <p>부드러움의 차이가 편안함의 차이</p>
+                            <div class="o2">
+                                <h2>O<sub>2</sub>EDITION</h2>
+                                <span>지금 바로 만나보시겠어요?</span>
+                            </div><!-- .o2 end -->
+
+                        </div><!-- .text end -->
+                    </div><!-- .swiper-slide end -->
+
+                </div><!-- .swiper-wrapper end -->
+                <div class="swiper-pagination"></div>
+            </div><!-- . ad-02 end -->
+        </section><!-- .section-08 end -->
+    </div><!-- .main-03 end -->
+
+    <section class="section-09">
+        
+    </section><!-- .section-09 end -->
 
 
 </body>
