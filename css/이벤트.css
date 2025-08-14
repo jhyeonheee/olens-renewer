@@ -1,0 +1,106 @@
+@charset "utf" ;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 기본설정 end */
+.section-01{
+    width: 1280px;
+    margin: 200px auto;
+    background-color: black;
+    
+}
+
+.section-01 .title{
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.section-01 .title .circle{
+    width: 58px;
+    height: 58px;
+    background-color: #FF69B4;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    z-index: 1;
+}
+
+.section-01 .title .title-text h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    ;
+}
+
+.section-01 .title .title-text p{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+/* .section-01 .title end */
+
+/* .section-01 .large end */ 
+.section-01 .event .img img{
+    position: relative;
+}
+
+.section-01 .event p{
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 13.5px;
+    background-color: black;
+    position: absolute;
+    top: 5px;
+    right: 45px;
+}
+
+
+.section-01 .event .text h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section-01 .event .text span{
+    font-size: 15px;
+    font-weight: 500;
+}
+/* text style end */
+
+.section-01 .swiper-button-prev,
+.section-01 .swiper-rtl .swiper-button-next{
+    background: url('../img2/left\(event\).png') center center / 100% no-repeat;
+
+}
+
+.section-01 .swiper-button-next,
+.section-01 .swiper-rtl .swiper-button-prev{
+    background: url('../img2/right\(event\).png') center center / 100% no-repeat;
+    top: 100px;
+}
+
+.section-01 .swiper-button-next:after,
+.section-01 .swiper-button-prev:after {
+    display: none;
+}
+/* .section-01 .swiper-slide.swiper-slide-active{
+    transform: scale(1.8);
+} */

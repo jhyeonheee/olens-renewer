@@ -1,0 +1,652 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'pretendard';
+    src: url('../font/pre/Pretendard-ExtraBold.eot');
+    src: url('../font/pre/Pretendard-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../font/pre/Pretendard-ExtraBold.woff2') format('woff2'),
+        url('../font/pre/Pretendard-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'pretendard';
+    src: url('../font/pre/Pretendard-Bold.eot');
+    src: url('../font/pre/Pretendard-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/pre/Pretendard-Bold.woff2') format('woff2'),
+        url('../font/pre/Pretendard-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'pretendard';
+    src: url('../font/pre/Pretendard-Black.eot');
+    src: url('../font/pre/Pretendard-Black.eot?#iefix') format('embedded-opentype'),
+        url('../font/pre/Pretendard-Black.woff2') format('woff2'),
+        url('../font/pre/Pretendard-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'pretendard';
+    src: url('../font/pre/Pretendard-ExtraLight.eot');
+    src: url('../font/pre/Pretendard-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../font/pre/Pretendard-ExtraLight.woff2') format('woff2'),
+        url('../font/pre/Pretendard-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'pretendard';
+    src: url('../font/pre/Pretendard-Medium.eot');
+    src: url('../font/pre/Pretendard-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../font/pre/Pretendard-Medium.woff2') format('woff2'),
+        url('../font/pre/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'pretendard';
+    src: url('../font/pre/Pretendard-Light.eot');
+    src: url('../font/pre/Pretendard-Light.eot?#iefix') format('embedded-opentype'),
+        url('../font/pre/Pretendard-Light.woff2') format('woff2'),
+        url('../font/pre/Pretendard-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'pretendard';
+    src: url('../font/pre/Pretendard-Regular.eot');
+    src: url('../font/pre/Pretendard-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/pre/Pretendard-Regular.woff2') format('woff2'),
+        url('../font/pre/Pretendard-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'pretendard';
+    src: url('../font/pre/Pretendard-SemiBold.eot');
+    src: url('../font/pre/Pretendard-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../font/pre/Pretendard-SemiBold.woff2') format('woff2'),
+        url('../font/pre/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'pretendard';
+    src: url('../font/pre/Pretendard-Thin.eot');
+    src: url('../font/pre/Pretendard-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../font/pre/Pretendard-Thin.woff2') format('woff2'),
+        url('../font/pre/Pretendard-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* pretendard end  */
+
+@font-face {
+    font-family: 'PyeongChangPeace-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* PyeongChang end */
+
+/* .main-01 .title-text p{
+    font-family: 'pretendard';
+    font-size: 20px;
+    font-weight: 500;
+} */
+
+/* font-style end */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'pretendard';
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 기본설정 end */
+
+.title h2 {
+    font-size: 40px;
+    font-family: 'PyeongChangPeace-Bold';
+}
+
+/* 전체설정 end */
+
+.main-01 {
+    width: 1920px;
+    background-color: black;
+    margin: 200px auto;
+}
+
+.main-01 .header .nav {
+    width: 1920px;
+    padding: 0 30px;
+    height: 70px;
+    line-height: 70px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main-01 .header .nav .left {
+    color: white;
+    display: flex;
+}
+
+.main-01 .header .nav .left h1 {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.main-01 .header .nav .left .menu ul {
+    display: flex;
+    width: 706px;
+    justify-content: space-between;
+}
+
+.main-01 .header .nav .left .menu ul li {
+    font-size: 15px;
+}
+
+.main-01 .header .nav .icon a {
+    margin-right: 27px;
+}
+
+.main-01 .main-visual .swiper-wrapper .swiper-slide {
+    width: 1920px;
+
+}
+
+.main-01 .main-visual .swiper-wrapper .swiper-slide img {
+    height: 1080px;
+
+}
+
+.main-01 .main-visual .swiper-wrapper a {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* .mainvisual end */
+
+.section-01 {
+
+    position: relative;
+}
+
+.section-01 .title {
+    width: 1280px;
+    margin: 200px auto 60px;
+    color: white;
+}
+
+.section-01 .title .circle {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background-color: #FF69B4;
+    position: absolute;
+    top: -20px;
+    left: 280px;
+}
+
+.section-01 .title .title-text {
+    z-index: 10;
+}
+
+
+.section-01 .event {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.section-01 .event .swiper-wrapper:first-child .text {
+    position: absolute;
+    top: 270px;
+    left: 30px;
+}
+
+.section-01 .event .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.section-01 .event p {
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 60px;
+    height: 25px;
+    background-color: black;
+    border-radius: 13.5px;
+    text-align: center;
+    line-height: 23px;
+}
+
+
+.section-01 .text {
+    color: white;
+    margin-top: 16px;
+}
+
+.section-01 .text h2 {
+    font-size: 20px;
+}
+
+.section-01 .text span {
+    font-size: 15px;
+}
+
+
+
+.section-01 .swiper-button-next,
+.section-01 .swiper-rtl .swiper-button-prev {
+    background: url('../img2/right\(event\).png') center center / 100% no-repeat;
+    top: 650px;
+    left: 660px;
+}
+
+/* right button */
+
+.section-01 .swiper-button-prev,
+.section-01 .swiper-rtl .swiper-button-next {
+    background: url('../img2/left\(event\).png') center center / 100% no-repeat;
+    top: 650px;
+    left: 610px;
+}
+
+/* left button */
+
+.section-01 .swiper-button-next:after,
+.section-01 .swiper-button-prev:after {
+    display: none;
+}
+
+.section-01 .swiper-button-next,
+.section-01 .swiper-button-prev {
+    width: 26px;
+}
+
+.section-01 .swiper {
+    position: static;
+}
+
+.section-01 .swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    display: none;
+}
+
+.section-01 .swiper-horizontal>.swiper-scrollbar,
+.section-01 .swiper-scrollbar.swiper-scrollbar-horizontal {
+    position: absolute;
+    top: 700px;
+    left: 100px;
+    background-color: white;
+}
+
+.section-01 .swiper-backface-hidden .swiper-slide img {
+    transform: scale();
+}
+
+
+/* .section-01 end */
+
+.section-02{
+ position: relative;   
+ 
+}
+.section-02 .title {
+    color: white;
+    width: 1280px;
+    margin: 200px auto 60px;
+    
+}
+
+.section-02 .title .circle {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background-color: #FF69B4;
+    position: absolute;
+    top: -20px;
+    left: 280px;
+}
+
+.section-02 .best {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.section-02 .best .swiper-slide img:nth-of-type(1):hover{
+    content:'url()';
+}
+
+.section-02 .best .swiper-wrapper .swiper-slide .text{
+    color: white;
+}
+
+.section-02 .best .swiper-wrapper .swiper-slide .text h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.section-02 .best .swiper-wrapper .swiper-slide .text ul {
+   display: flex;
+   width: 192px;
+   justify-content: space-between;
+   margin-top: 5px;
+}
+
+.section-02 .best .swiper-wrapper .swiper-slide .text ul li {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.section-02 .best .swiper-wrapper .swiper-slide strong {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+   
+}
+
+.section-02 .best .swiper-wrapper .swiper-slide .color{
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.section-02 .best .swiper-wrapper .swiper-slide .color .moka{
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    border: 2px solid #fff;
+    background-color: #725C4E;
+    display: inline-block;
+}
+
+.section-02 .best .swiper-wrapper .swiper-slide .color .purple{
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    border: 2px solid #fff;
+    background-color: #F5DDFF;
+    display: inline-block;
+}
+.section-02 .best .swiper-wrapper .swiper-slide .color .gray{
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    border: 2px solid #fff;
+    background-color: #7F7F7F;
+    display: inline-block;
+}
+/* today(1) end */
+
+.section-02 .best .swiper-wrapper .swiper-slide .color .gray2{
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    border: 2px solid #fff;
+    background-color: #808080;
+    display: inline-block;
+}
+
+.section-02 .best .swiper-wrapper .swiper-slide .color .brown{
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    border: 2px solid #fff;
+    background-color: #976E3F;
+    display: inline-block;
+}
+/* today(2) end */
+.section-02 .best .swiper-wrapper .swiper-slide .color .choco{
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    border: 2px solid #fff;
+    background-color: #5B4D3E;
+    display: inline-block;
+}
+
+.section-02 .best .swiper-wrapper .swiper-slide .color .brown2{
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    border: 2px solid #fff;
+    background-color: #976E3F;
+    display: inline-block;
+}
+
+.section-02 .best .swiper-wrapper .swiper-slide .color .gray3{
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    border: 2px solid #fff;
+    background-color: #808080;
+    display: inline-block;
+}
+
+.section-02 .best .swiper-wrapper .swiper-slide .color .beige{
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    border: 2px solid #fff;
+    background-color: #E6BE9B;
+    display: inline-block;
+}
+
+.section-02 .best .swiper-wrapper .swiper-slide .color .pink{
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    border: 2px solid #fff;
+    background-color: #FF89BC;
+    display: inline-block;
+}
+/* today(3) end */
+
+.section-02 .best .swiper-wrapper .swiper-slide .color .moodbrown{
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    border: 2px solid #fff;
+    background-color: #976E3F;
+    display: inline-block;
+}
+
+.section-02 .best .swiper-wrapper .swiper-slide .color .moodgray{
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    border: 2px solid #fff;
+    background-color: #808080;
+    display: inline-block;
+}
+/* today(4) end */
+
+.section-02 .best .swiper-wrapper .swiper-slide .color .brown3{
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    border: 2px solid #fff;
+    background-color: #976E3F;
+    display: inline-block;
+}
+
+.section-02 .best .swiper-wrapper .swiper-slide .color .gray4{
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    border: 2px solid #fff;
+    background-color: #808080;
+    display: inline-block;
+}
+/* today(5) end */
+
+.section-02 .best .swiper-wrapper .swiper-slide .color .black{
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    border: 2px solid #fff;
+    background-color: #282828;
+    display: inline-block;
+}
+/* today(6) end */
+
+.section-02 .best .swiper-wrapper .swiper-slide .color .moka2{
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    border: 2px solid #fff;
+    background-color: #725C4E;
+    display: inline-block;
+}
+
+.section-02 .best .swiper-wrapper .swiper-slide .color .latte{
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    border: 2px solid #fff;
+    background-color: rgb(223, 170, 126)C4E;
+    display: inline-block;
+}
+/* today(7) end */
+
+.section-02 .best .swiper-wrapper .swiper-slide .color .brown4{
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    border: 2px solid #fff;
+    background-color: #976E3F;
+    display: inline-block;
+}
+
+.section-02 .best .swiper-wrapper .swiper-slide .color .gray5{
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    border: 2px solid #fff;
+    background-color: #808080;
+    display: inline-block;
+}
+/* today(8) end */
+.section-02 .swiper-android .swiper-slide,
+.section-02 .swiper-ios .swiper-slide,
+.section-02 .swiper-wrapper{
+
+}
+
+.section-03{
+position: relative;
+}
+
+.section-03 .title {
+    color: white;
+    width: 1280px;
+    margin: 200px auto 60px;
+    
+}
+
+.section-03 .title .circle {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background-color: #FF69B4;
+    position: absolute;
+    top: -20px;
+    left: 280px;
+}
+
+.section-03 .make {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.section-03 .make .swiper-slide .bg img{
+    /* width: 100%;
+    height: 100%;
+    object-fit: cover; */
+    position: relative;
+}
+
+.section-03 .make .swiper-slide .text{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: absolute;
+    /* top: 40px;
+    left: 210px; */
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+.section-03 .make .swiper-slide .text h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.section-03 .make .swiper-slide .text p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.section-03 .make .swiper-slide strong{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.section-03 .make .swiper-slide .img img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* .section-03 .swiper-slide.swiper-slide-active{
+    transform: scale(1.19);
+    z-index: 100;
+} */
+
+
+    
+   
+
