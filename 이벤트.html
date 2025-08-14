@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이벤트</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/이벤트.css">
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <script>
+        window.onload = () => {
+
+            var swiper = new Swiper(".event", {
+                slidesPerView: 4.5,
+                spaceBetween: 30,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+
+                spaceBetween: 30,
+                centeredSlides: false,
+                autoplay: {
+                    delay: 1000500,
+                    disableOnInteraction: false,
+                },
+            });
+        }
+    </script>
+
+
+</head>
+
+<body>
+    <section class="section-01">
+
+        <div class="title">
+            <div class="circle"></div><!-- .circle end -->
+            <div class="title-text">
+                <h2>EVENT & PROMOTION</h2>
+                <p>오렌즈만의 특별하고 다양한 이벤트를 즐겨보세요!</p>
+            </div><!-- .title-text end -->
+        </div><!-- .title end -->
+
+        <!-- Swiper -->
+        <div class="swiper event">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="large">
+                        <a href="#">
+                            <img src="img2/event(7).png" alt="">
+                            <div class="text">
+                                <p>온라인</p>
+                                <h2>[Summer Sparkle!]</h2>
+                                <span>NEW 시크릿틴트 시리즈</span>
+                            </div><!-- .text end -->
+                        </a>
+                    </div><!-- .large -->
+                </div><!-- .swiper-slide end -->
+
+                <div class="swiper-slide">
+                    <div class="inner">
+                        <a href="#">
+                            <div class="img">
+                                <img src="img2/event(5).png" alt="">
+                                <p>온라인</p>
+                            </div><!-- .img end -->
+                            <div class="text">
+                                <h2>[8월의 리뷰 이벤트]</h2>
+                                <span>당신의 컬러에 투표하세요!</span>
+                            </div><!-- .text end -->
+                        </a>
+                    </div><!-- .inner end -->
+                </div><!-- .swiper-slide end -->
+
+                <div class="swiper-slide">
+                    <div class="inner">
+                        <a href="">
+                            <div class="img">
+                                <img src="img2/event(6).png" alt="">
+                                <p>온라인</p>
+                            </div><!-- .img end -->
+                            <div class="text">
+                                <h2>[민생회복 소비쿠폰]</h2>
+                                <span>오렌즈도 사용 사능!</span>
+                            </div><!-- .text end -->
+                        </a>
+                    </div><!-- .inner end -->
+                </div><!-- .swiper-slide end -->
+
+                <div class="swiper-slide">
+                    <div class="inner">
+                        <a href="#">
+                            <div class="img">
+                                <img src="img2/event(2).png" alt="">
+                                <p>온라인</p>
+                            </div><!-- .img end -->
+                            <div class="text">
+                                <h2>[정회원 전용]</h2>
+                                <span>행사렌즈 5천원 즉시 할인!</span>
+                            </div><!-- .text end -->
+                        </a>
+                    </div><!-- .inner end -->
+                </div><!-- .swiper-slide end -->
+
+                <div class="swiper-slide">
+                    <div class="inner">
+                        <a href="#">
+                            <div class="img">
+                                <img src="img2/event(3).png" alt="">
+                                <p>온라인</p>
+                            </div><!-- .img end -->
+                            <div class="text">
+                                <h2>[신상 추가]</h2>
+                                <span>한달용 렌즈 한팩 구매시 한팩 더!</span>
+                            </div><!-- .text end -->
+                        </a>
+                    </div><!-- .inner end -->
+                </div><!-- .swiper-slide end -->
+
+                <div class="swiper-slide">
+                    <div class="inner">
+                        <a href="#">
+                            <div class="img">
+                                <img src="img2/event(4).png" alt="">
+                                <p>오프라인</p>
+                            </div><!-- .img end -->
+                            <div class="text">
+                                <h2>[실리콘 렌즈 1+1]</h2>
+                                <span>실리콘 렌즈 한쌍 구매시 한쌍 더!!!</span>
+                            </div><!-- .text end -->
+                        </a>
+                    </div><!-- .inner end -->
+                </div><!-- .swiper-slide end -->
+
+            </div><!-- .swiper-wrapper end -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div><!-- .swiper event end -->
+
+    </section><!-- .section-01 -->
+</body>
+
+</html>
